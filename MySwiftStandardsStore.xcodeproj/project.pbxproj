@@ -13,6 +13,7 @@
 		757F809A2785F89D009FE11D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757F80982785F89D009FE11D /* Main.storyboard */; };
 		757F809C2785F89E009FE11D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757F809B2785F89E009FE11D /* Assets.xcassets */; };
 		757F809F2785F89E009FE11D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757F809D2785F89E009FE11D /* LaunchScreen.storyboard */; };
+		757F80A82785FC9B009FE11D /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757F80A72785FC9B009FE11D /* BaseTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		757F809B2785F89E009FE11D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		757F809E2785F89E009FE11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		757F80A02785F89E009FE11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757F80A72785FC9B009FE11D /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,21 @@
 				757F80922785F89D009FE11D /* AppDelegate.swift */,
 				757F80942785F89D009FE11D /* SceneDelegate.swift */,
 				757F80962785F89D009FE11D /* ViewController.swift */,
+				757F80A62785FC55009FE11D /* Controllers */,
 				757F80982785F89D009FE11D /* Main.storyboard */,
 				757F809B2785F89E009FE11D /* Assets.xcassets */,
 				757F809D2785F89E009FE11D /* LaunchScreen.storyboard */,
 				757F80A02785F89E009FE11D /* Info.plist */,
 			);
 			path = MySwiftStandardsStore;
+			sourceTree = "<group>";
+		};
+		757F80A62785FC55009FE11D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				757F80A72785FC9B009FE11D /* BaseTabBarViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				757F80972785F89D009FE11D /* ViewController.swift in Sources */,
 				757F80932785F89D009FE11D /* AppDelegate.swift in Sources */,
 				757F80952785F89D009FE11D /* SceneDelegate.swift in Sources */,
+				757F80A82785FC9B009FE11D /* BaseTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +308,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SK.MySwiftStandardsStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nb.RN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,12 +336,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SK.MySwiftStandardsStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nb.RN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
