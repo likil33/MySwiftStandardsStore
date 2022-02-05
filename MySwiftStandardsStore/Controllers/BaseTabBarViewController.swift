@@ -30,7 +30,7 @@ class BaseTabBarViewController: UITabBarController {
         viewControllers = [
             createNavigationController(UIViewController(), "Today", "today", .white),
             createNavigationController(UIViewController(), "Apps", "apps", .orange),
-            createNavigationController(UIViewController(), "Search", "search", .yellow)
+            createNavigationController(AppSearchCollectionViewController(), "Search", "search", .yellow)
         ]
         
     }
